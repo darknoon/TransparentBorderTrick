@@ -1,0 +1,296 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4908A66E14FC971600F1CC84 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4908A66D14FC971600F1CC84 /* UIKit.framework */; };
+		4908A67014FC971600F1CC84 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4908A66F14FC971600F1CC84 /* Foundation.framework */; };
+		4908A67214FC971600F1CC84 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4908A67114FC971600F1CC84 /* CoreGraphics.framework */; };
+		4908A67814FC971600F1CC84 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4908A67614FC971600F1CC84 /* InfoPlist.strings */; };
+		4908A67A14FC971600F1CC84 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4908A67914FC971600F1CC84 /* main.m */; };
+		4908A67E14FC971600F1CC84 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4908A67D14FC971600F1CC84 /* AppDelegate.m */; };
+		4908A68114FC971600F1CC84 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4908A68014FC971600F1CC84 /* ViewController.m */; };
+		4908A68414FC971600F1CC84 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4908A68214FC971600F1CC84 /* ViewController_iPhone.xib */; };
+		4908A68714FC971600F1CC84 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4908A68514FC971600F1CC84 /* ViewController_iPad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4908A66914FC971600F1CC84 /* TransparentBorderTrick.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TransparentBorderTrick.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4908A66D14FC971600F1CC84 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4908A66F14FC971600F1CC84 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4908A67114FC971600F1CC84 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4908A67514FC971600F1CC84 /* TransparentBorderTrick-Info.plist */ = {isa = PBXFileReference; path = "TransparentBorderTrick-Info.plist"; sourceTree = "<group>"; };
+		4908A67714FC971600F1CC84 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4908A67914FC971600F1CC84 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4908A67B14FC971600F1CC84 /* TransparentBorderTrick-Prefix.pch */ = {isa = PBXFileReference; path = "TransparentBorderTrick-Prefix.pch"; sourceTree = "<group>"; };
+		4908A67C14FC971600F1CC84 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		4908A67D14FC971600F1CC84 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4908A67F14FC971600F1CC84 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		4908A68014FC971600F1CC84 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4908A68314FC971600F1CC84 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		4908A68614FC971600F1CC84 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4908A66614FC971600F1CC84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4908A66E14FC971600F1CC84 /* UIKit.framework in Frameworks */,
+				4908A67014FC971600F1CC84 /* Foundation.framework in Frameworks */,
+				4908A67214FC971600F1CC84 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4908A65E14FC971600F1CC84 = {
+			isa = PBXGroup;
+			children = (
+				4908A67314FC971600F1CC84 /* TransparentBorderTrick */,
+				4908A66C14FC971600F1CC84 /* Frameworks */,
+				4908A66A14FC971600F1CC84 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4908A66A14FC971600F1CC84 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4908A66914FC971600F1CC84 /* TransparentBorderTrick.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4908A66C14FC971600F1CC84 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4908A66D14FC971600F1CC84 /* UIKit.framework */,
+				4908A66F14FC971600F1CC84 /* Foundation.framework */,
+				4908A67114FC971600F1CC84 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4908A67314FC971600F1CC84 /* TransparentBorderTrick */ = {
+			isa = PBXGroup;
+			children = (
+				4908A67C14FC971600F1CC84 /* AppDelegate.h */,
+				4908A67D14FC971600F1CC84 /* AppDelegate.m */,
+				4908A67F14FC971600F1CC84 /* ViewController.h */,
+				4908A68014FC971600F1CC84 /* ViewController.m */,
+				4908A68214FC971600F1CC84 /* ViewController_iPhone.xib */,
+				4908A68514FC971600F1CC84 /* ViewController_iPad.xib */,
+				4908A67414FC971600F1CC84 /* Supporting Files */,
+			);
+			path = TransparentBorderTrick;
+			sourceTree = "<group>";
+		};
+		4908A67414FC971600F1CC84 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4908A67514FC971600F1CC84 /* TransparentBorderTrick-Info.plist */,
+				4908A67614FC971600F1CC84 /* InfoPlist.strings */,
+				4908A67914FC971600F1CC84 /* main.m */,
+				4908A67B14FC971600F1CC84 /* TransparentBorderTrick-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4908A66814FC971600F1CC84 /* TransparentBorderTrick */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4908A68A14FC971600F1CC84 /* Build configuration list for PBXNativeTarget "TransparentBorderTrick" */;
+			buildPhases = (
+				4908A66514FC971600F1CC84 /* Sources */,
+				4908A66614FC971600F1CC84 /* Frameworks */,
+				4908A66714FC971600F1CC84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TransparentBorderTrick;
+			productName = TransparentBorderTrick;
+			productReference = 4908A66914FC971600F1CC84 /* TransparentBorderTrick.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4908A66014FC971600F1CC84 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = Darknoon;
+			};
+			buildConfigurationList = 4908A66314FC971600F1CC84 /* Build configuration list for PBXProject "TransparentBorderTrick" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4908A65E14FC971600F1CC84;
+			productRefGroup = 4908A66A14FC971600F1CC84 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4908A66814FC971600F1CC84 /* TransparentBorderTrick */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4908A66714FC971600F1CC84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4908A67814FC971600F1CC84 /* InfoPlist.strings in Resources */,
+				4908A68414FC971600F1CC84 /* ViewController_iPhone.xib in Resources */,
+				4908A68714FC971600F1CC84 /* ViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4908A66514FC971600F1CC84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4908A67A14FC971600F1CC84 /* main.m in Sources */,
+				4908A67E14FC971600F1CC84 /* AppDelegate.m in Sources */,
+				4908A68114FC971600F1CC84 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4908A67614FC971600F1CC84 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4908A67714FC971600F1CC84 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4908A68214FC971600F1CC84 /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4908A68314FC971600F1CC84 /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		4908A68514FC971600F1CC84 /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4908A68614FC971600F1CC84 /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4908A68814FC971600F1CC84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4908A68914FC971600F1CC84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4908A68B14FC971600F1CC84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TransparentBorderTrick/TransparentBorderTrick-Prefix.pch";
+				INFOPLIST_FILE = "TransparentBorderTrick/TransparentBorderTrick-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4908A68C14FC971600F1CC84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TransparentBorderTrick/TransparentBorderTrick-Prefix.pch";
+				INFOPLIST_FILE = "TransparentBorderTrick/TransparentBorderTrick-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4908A66314FC971600F1CC84 /* Build configuration list for PBXProject "TransparentBorderTrick" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4908A68814FC971600F1CC84 /* Debug */,
+				4908A68914FC971600F1CC84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4908A68A14FC971600F1CC84 /* Build configuration list for PBXNativeTarget "TransparentBorderTrick" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4908A68B14FC971600F1CC84 /* Debug */,
+				4908A68C14FC971600F1CC84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4908A66014FC971600F1CC84 /* Project object */;
+}
