@@ -10,4 +10,8 @@
 
 @interface ViewController : UIViewController
 
+@property (nonatomic) float borderSize;
+
+@property (nonatomic) BOOL showDebugBorder;
+
 @end

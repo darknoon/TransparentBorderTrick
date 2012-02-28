@@ -14,8 +14,7 @@
 		4908A67A14FC971600F1CC84 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4908A67914FC971600F1CC84 /* main.m */; };
 		4908A67E14FC971600F1CC84 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4908A67D14FC971600F1CC84 /* AppDelegate.m */; };
 		4908A68114FC971600F1CC84 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4908A68014FC971600F1CC84 /* ViewController.m */; };
-		4908A68414FC971600F1CC84 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4908A68214FC971600F1CC84 /* ViewController_iPhone.xib */; };
-		4908A68714FC971600F1CC84 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4908A68514FC971600F1CC84 /* ViewController_iPad.xib */; };
+		4908A68E14FC9D4D00F1CC84 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4908A68D14FC9D4D00F1CC84 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,16 +22,15 @@
 		4908A66D14FC971600F1CC84 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		4908A66F14FC971600F1CC84 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		4908A67114FC971600F1CC84 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		4908A67514FC971600F1CC84 /* TransparentBorderTrick-Info.plist */ = {isa = PBXFileReference; path = "TransparentBorderTrick-Info.plist"; sourceTree = "<group>"; };
+		4908A67514FC971600F1CC84 /* TransparentBorderTrick-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TransparentBorderTrick-Info.plist"; sourceTree = "<group>"; };
 		4908A67714FC971600F1CC84 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4908A67914FC971600F1CC84 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		4908A67B14FC971600F1CC84 /* TransparentBorderTrick-Prefix.pch */ = {isa = PBXFileReference; path = "TransparentBorderTrick-Prefix.pch"; sourceTree = "<group>"; };
-		4908A67C14FC971600F1CC84 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		4908A67B14FC971600F1CC84 /* TransparentBorderTrick-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TransparentBorderTrick-Prefix.pch"; sourceTree = "<group>"; };
+		4908A67C14FC971600F1CC84 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4908A67D14FC971600F1CC84 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		4908A67F14FC971600F1CC84 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		4908A67F14FC971600F1CC84 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		4908A68014FC971600F1CC84 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		4908A68314FC971600F1CC84 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
-		4908A68614FC971600F1CC84 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		4908A68D14FC9D4D00F1CC84 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +38,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4908A68E14FC9D4D00F1CC84 /* QuartzCore.framework in Frameworks */,
 				4908A66E14FC971600F1CC84 /* UIKit.framework in Frameworks */,
 				4908A67014FC971600F1CC84 /* Foundation.framework in Frameworks */,
 				4908A67214FC971600F1CC84 /* CoreGraphics.framework in Frameworks */,
@@ -69,6 +68,7 @@
 		4908A66C14FC971600F1CC84 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4908A68D14FC9D4D00F1CC84 /* QuartzCore.framework */,
 				4908A66D14FC971600F1CC84 /* UIKit.framework */,
 				4908A66F14FC971600F1CC84 /* Foundation.framework */,
 				4908A67114FC971600F1CC84 /* CoreGraphics.framework */,
@@ -83,8 +83,6 @@
 				4908A67D14FC971600F1CC84 /* AppDelegate.m */,
 				4908A67F14FC971600F1CC84 /* ViewController.h */,
 				4908A68014FC971600F1CC84 /* ViewController.m */,
-				4908A68214FC971600F1CC84 /* ViewController_iPhone.xib */,
-				4908A68514FC971600F1CC84 /* ViewController_iPad.xib */,
 				4908A67414FC971600F1CC84 /* Supporting Files */,
 			);
 			path = TransparentBorderTrick;
@@ -153,8 +151,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				4908A67814FC971600F1CC84 /* InfoPlist.strings in Resources */,
-				4908A68414FC971600F1CC84 /* ViewController_iPhone.xib in Resources */,
-				4908A68714FC971600F1CC84 /* ViewController_iPad.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -180,22 +176,6 @@
 				4908A67714FC971600F1CC84 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		4908A68214FC971600F1CC84 /* ViewController_iPhone.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4908A68314FC971600F1CC84 /* en */,
-			);
-			name = ViewController_iPhone.xib;
-			sourceTree = "<group>";
-		};
-		4908A68514FC971600F1CC84 /* ViewController_iPad.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4908A68614FC971600F1CC84 /* en */,
-			);
-			name = ViewController_iPad.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
